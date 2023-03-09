@@ -1,0 +1,8 @@
+Breadth First Search Algorithm:
+
+- Form queue that initially contains the first node.
+- Until queue is not empty or it is not the end node (node that we are searching for), check if first element is end node.
+    - If first element is end node, do not do anything.
+    - If first element is not end node, remove it from the queue and add all it's children 
+        (if there is any if they are not visited) to the queue.
+- If end node is found, search is successfully executed, otherwise search is a failure.
